@@ -3,7 +3,7 @@
 if($production == true){
   $db = "jungles1_sites";
 
-  $con =  mysqli_connect('127.0.0.1', 'jungles1_admin', 'd3vRathat7676', $db, '3306');
+  $con =  mysqli_connect('127.0.0.1', '<DB_USER_NAME>', '<DB_PASSWORD>', $db, '<DB_PORT>');
   if (!$con) {
       die(mysqli_error($con));
   }
